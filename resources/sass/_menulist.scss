@@ -1,0 +1,16 @@
+.menulist {
+    padding-top:40px;
+    margin:auto;
+    width:90vw;
+  &_container {
+    padding-top:20px;
+    &-img {
+        width:100%;
+	      border:0.5px solid #AAAAAA;
+	  &:hover{
+	      transition:0.5s;
+	      opacity:0.7;
+	  }
+   }
+  }
+}
